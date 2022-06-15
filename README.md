@@ -57,8 +57,6 @@ To aid in TSS interepretation, the annotation of the gene associated with the TS
 
 The BAM file is revised to better visualize TSS using a tool such as IGV.
 
-09_visualizeTSS.plx revised the BAM file to be compatible with IGV.
+09_visualizeTSS.plx revises the BAM file to be compatible with IGV.
 
-
-09_visualizeTSS.plx
 
