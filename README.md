@@ -37,7 +37,7 @@ Sequencing from replicate cultures is needed to reliably identify TSS. This step
 
 06_compareReplicates.plx compares TSS from two replicate cultures. Input is the file of clustered TSS. Output is file of all positions with >10 reads/million reads in both samples.
 
-## Step 7: 
+## Step 7: Classify TSS
 
 As shown in [panel B](https://journals.asm.org/doi/10.1128/spectrum.02288-21?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed#fig3), TSS are classified into 1 of 4 categories:
 * InterS (intergenic TSS with downstream gene in same orientation)
@@ -47,4 +47,18 @@ As shown in [panel B](https://journals.asm.org/doi/10.1128/spectrum.02288-21?url
 
 07_classifyTSS.plx takes alist of TSS, and uses the .gff file to one of the 4 categories shown above.
 
+## Step 8: Annotate TSS
+
+To aid in TSS interepretation, the annotation of the gene associated with the TSS is added.
+
+08_addAnnotation.plx takes the classified TSS file as input and uses the genome .ppt file to add gene annotations.
+
+## Step 9: Visualize TSS
+
+The BAM file is revised to better visualize TSS using a tool such as IGV.
+
+09_visualizeTSS.plx revised the BAM file to be compatible with IGV.
+
+
+09_visualizeTSS.plx
 
