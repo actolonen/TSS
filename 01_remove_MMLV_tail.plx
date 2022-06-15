@@ -6,8 +6,8 @@
 # then the tail is removed and the read is kept. Otherwise, the read is rejected.
 
 
-$inputfile = "inputsequence.fastq";
-$outputfile = "inputSequence_mmlvTrimmed.fastq";
+$inputfile = "reads.fastq";
+$outputfile = "reads_mmlvTrimmed.fastq";
 
 open(IN, "<$inputfile") or die "cant open fastq input file";
 open(OUT, ">$outputfile") or die "cant open fastq output file";
