@@ -1,2 +1,2 @@
 # TSS
-Transcription Start Site identification from Capp-Switch reads
+Transcription Start Site (TSS) identification from Capp-Switch reads
