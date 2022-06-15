@@ -1,5 +1,5 @@
 # Transcription Start Site (TSS) identification from Capp-Switch reads
-This pipeline enables the identification, classification, and annotation of TSSs from Illumina sequencing reads, as published in [Boutard et al, 2016](https://www.nature.com/articles/ncomms13783).  
+This pipeline enables the identification, classification, and annotation of TSSs from Illumina sequencing reads sequencin using Capp-Switch sequencing, as published in [Boutard et al, 2016](https://www.nature.com/articles/ncomms13783).  
 
 ## Step 1: remove the MMLV tail from FASTQ reads
 
